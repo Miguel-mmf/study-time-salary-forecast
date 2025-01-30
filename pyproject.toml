@@ -1,0 +1,22 @@
+[project]
+name = "study-time-salary-forecast"
+version = "0.1.0"
+description = "Project that utilizes historical data to predict an individual's salary based on the number of hours dedicated to study per month."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.3",
+]
+
+[tool.ruff]
+line-length = 79
